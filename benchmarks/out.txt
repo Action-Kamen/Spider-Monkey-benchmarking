@@ -1,0 +1,232 @@
+found tag: logs
+found tag: profiling
+found tag: caches
+found tag: profiling
+found tag: snapshots
+[Profiling] Added JitcodeGlobalEntry for baseline script ./Benchmarkers/prop_access.js:1:1 (7937d6ebbd40)
+[Profiling] Added JitcodeGlobalEntry for baseline script ./Benchmarkers/prop_access.js:2:33 (7937d6ebb710)
+Current resume point 7937d4da4890 details:
+    frame count: 1
+    taken at block 0 entry
+    pc: 7937d6e0da21 (script: 2f62e1b730b0, offset: 0)
+    slot0: Constant#0
+    slot1: Constant#0
+[IonSnapshots] Generating LIR recover info 7937d47560b8 from MIR (7937d4da4890)
+[IonSnapshots] Generating LIR snapshot 7937d4756110 from recover (7937d47560b8)
+[IonSnapshots] Assigning snapshot 7937d4756110 to instruction 7937d4756160 (osipoint)
+[IonSnapshots] Generating LIR recover info 7937d4756380 from MIR (7937d4da4ba0)
+[IonSnapshots] Generating LIR snapshot 7937d47563d8 from recover (7937d4756380)
+[IonSnapshots] Assigning snapshot 7937d47563d8 to instruction 7937d4756428 (osipoint)
+Current resume point 7937d4da4ba0 details:
+    frame count: 1
+    taken after: GlobalDeclInstantiation#4
+ Current resume point 7937d4dd8860 details:
+    frame count: 1
+    t   pc: 7937d6e0da21 (script: 2f62e1b730b0, offset: 0)
+    slot0: Constant#3
+    slotaken at block 1: Constant0 #0
+[IonSnapshots] entry
+    pc: 7937d6e0a051Generating LIR snapshot 7937d4756540 from recover (7937d4756380)
+[IonSnapshots] Assigning snapshot 7937d4756540 to instruction 7937d47564d8 (ba (scriil)
+pt: 2f62e1b73060, offset: 0)
+    slot0: Constant#2
+    slot1: Constant#2
+  [IonSnapshots] En  slot2: Parameter#coding L0
+  Reco  slot3: Parameter#1
+    slotverInfo 7937d47560b8 (frameCount 1, instructions 1)
+4: Constant[IonSnapshots] #2
+    slot5: Constant#starting2
+    slot6: recover with 1 instruction(s) Constant
+[IonSnapshots#2
+] [IonSnapshots] Generating LIR Starting frame; implicit 2, formals 0, fixed 0, exprs 0
+recover info [IonSnapshots7937d46a64a8 from MIR (7937d4dd8860)
+[IonSnapshots] ] Writing pc offsGenerating LIR snapshot 7937d46a6500 et 0, mode ResumeAtfrom recover (7937d46a64a8)
+[IonSnapshots] Ass, nslots 2igning snaps
+[IonSnapshotshot 7937d46a6500 to instruction 7937d46a6578 (] osipointEncoding LSnapshot 7937d4756110 (LRecover 7937d47560b8)
+[IonSnapshots] starting snapshot with recover offset 0, bailout kind 11
+[IonSnapshots]     slot 0 (0): undefined
+[IonSnapshots]     slot 1 (0): undefined
+[IonSnapshots] ending snapshot total size: 9 bytes (start 0)
+)
+Current re[IonSnapshots] Encoding LRecoverInfo 7937d4756380 (frasume point 7937d4dd8ed0 details:
+    frame coument: 1
+    taken at block 1 entry
+    pc: 7937d6e0a05d (scriCount 1, inspt: 2f62e1b73060, offtructions set: 121)
+[IonSnapshots)
+    slot0: Constant] #2
+    slot1: Constant#2
+starting recover    slot2: Parameter#0
+    slot3: Parameter# with 1
+    slot4: Constant#5
+ 1 in   slot5: Constant#2
+    slot6: Constant#2
+[IonSnapshots] struGenerating LIR recover info 7937d46a6808 from MIR (7937d4dd8ed0)
+ction(s)
+[IonSnapshots] Starting frame; implicit 2, formals 0, fixed 0, exprs 0
+[IonSnapshots] W[IonSnapshots] riting pc Generating LIR snapshoffsot 7937d46a6860et 0, mo frode ResumeAfterm r, nsecovlots 2
+er (7937d46a6808)
+[IonSnapshots] Assigning snapshot 7937d46a6860 to instructi[IonSnapshots] on 7937d46a68d8 (osipoEncoding LSnapshot 7937d47563d8 (LRecover 7937d4756380in)
+t)
+[IonSnapshots] [IonSnapshots] Generating LIR snapshostt 7937d46a69f0 from recovartier (7937d46a6808)
+[IonSnapshots] Assigning snapshot ng7937d46a69f0 to instruc snapshot tion 7937d46a6988with recover offse (bat 4,il)
+ bailout kind 11
+[IonSnapshots]     slot 0 (2): constant (index 0)
+[IonSnapshots]     slot 1[IonSnapshots] Encoding LRecoverInfo 7937d46a64a8 (frameCount 1, instruction (0): undefined
+s 1)
+[IonSnapshots] starting recover with 1 instruction(s)
+[IonSnapshots] Starting frame; implici[IonSnapshots] ending snapshot total size: 10 bytes (st 2,tart 9)
+ formals 2, fixed 3, exprs 0
+[IonSnapshots] Writing pc offset 0, mode ResumeAt, nslots 7
+[IonSnapshots] Enc[IonSnapshots] oding LSnapshEncoot 7937d46a6500ding LSnapsh (LRecover 7937d46a64a8)
+[IonSnapshots] starting snaot 7937d4756540 (LRecover 7937d4756380)
+[IonSnapshotspsho] t starwith recover offset 0, bailout kind 11
+ting[IonSnapshots]    snapshot   slot 0 (0): undefined
+with recover offset 4, bailo[IonSnapshots]     slot 1 (0)ut kind 14
+: [IonSnapshots]     sloundefined
+[IonSnapshotst 0 ]     slot 2 (2): value (stack -32)
+[IonSnapshots]     slot (23 (4): value (stack -40)
+[IonSnapshots]     slot 4 (0): undefined
+): constant ([IonSnapshots] inde    slot 5 (0): undefined
+x 0)
+[IonSnapshots]     slot 6[IonSnapshots]  (0): undefined
+    slot 1 (0): undefined
+[IonSnapshots] ending snaps[IonSnapshotshot total size] : 14 bytes (start 0ending s)
+napshot[IonSnapshots]  tEncootalding LRecoverInfo 7937d46a6808 (frameCount 1, size: 11 bytes (start 19)
+ instructi[Profilingons ] 1)
+[IonSnapshots] starting Native To Bytecode Entrecover with 1 instrries for ./Benchmarkers/prop_access.js:1:1uction(s
+)
+[IonSnapshots] Starting frame; implicit 2, formals 2, fixed 3, exprs 0
+[IonSnapshots] Writing pc offset 12, mode ResumeAt, nslots 7
+[IonSnapshots] Encoding LSnapshot 7937d46a6860 (LRecover 7937d46a6808)
+[IonSnapshots] starting snapshot with recover offset 4, bailout kind 11
+[IonSnapshots]     slot 0 (0): undefined
+[IonSnapshots]     slot 1 (0): undefined
+[IonSnapshots]     slot 2 (2): value (stack -32)
+[IonSnapshots]     slot 3 (4): value (stack -40)
+[IonSnapshots]     slot 4 (6): constant (index 0)
+[IonSnapshots]     slot 5 (0): undefined
+[IonSnapshots]     slot 6 (0): undefined
+[IonSnapshots] ending snapshot total size: 15 bytes (start 14)
+[IonSnapshots] Encoding LSnapshot 7937d46a69f0 (LRecover 7937d46a6808)
+[IonSnapshots] starting snapshot with recover offset 4, bailout kind 14
+[IonSnapshots]     slot 0 (0): undefined
+[IonSnapshots]     slot 1 (0): undefined
+[IonSnapshots]     slot 2 (2): value (stack -32)
+[IonSnapshots]     slot 3 (4): value (stack -40)
+[IonSnapshots]     slot 4 (6): constant (index 0)
+[IonSnapshots]     slot 5 (0): undefined
+[IonSnapshots]     slot 6 (0): undefined
+[IonSnapshots] ending snapshot total size: 16 bytes (start 29)
+[Profiling] Native To Bytecode Entries for ./Benchmarkers/prop_access.js:2:33
+{
+  "AsmJS": 0,
+  "Wasm": 0,
+  "WasmLegacyExceptions": 0,
+  "IsHTMLDDAFuse": 0,
+  "OptimizeGetIteratorFuse": 0,
+  "ThenableUse": 0,
+  "ThenableUseProto": 0,
+  "ThenableUseStandardProto": 0,
+  "ThenableUseObjectProto": 0,
+  "LegacyLangSubtag": 0,
+  "ICStubTooLarge": 0,
+  "ICStubOOM": 0,
+  "ErrorStackGetter": 0,
+  "ErrorStackGetterNoErrorData": 0,
+  "ErrorStackSetter": 0,
+  "ErrorStackSetterNonString": 0,
+  "ErrorStackSetterNoErrorData": 0,
+  "DateParse": 0,
+  "DateParseImplDef": 0,
+  "OptimizeArraySpeciesFuse": 0,
+  "OptimizePromiseLookupFuse": 0,
+  "IonBackend": 0,
+  "PropertyKeyAccess": 20001,
+  "StrictlyEqual": 0,
+  "GetProp": 0,
+  "GetElem": 0,
+  "ToNumeric": 0,
+  "ToString": 0
+}
+loading /tmp/ion.json...
+generating graphviz...
+ function 0 (./Benchmarkers/prop_access.js:1): success; 35 passes.
+ function 1 (./Benchmarkers/prop_access.js:2): success; 35 passes.
+ function 2 (./Benchmarkers/prop_access.js:2): success; 2 passes.
+generating pdfs...
+ writing pdf /tmp/tmp6effutj7/func00-pass00-BuildSSA-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass01-Prune Unused Branches-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass02-Fold Empty Blocks-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass03-Eliminate trivially dead resume point operands-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass04-Fold Tests-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass05-Split Critical Edges-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass06-Renumber Blocks-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass07-Eliminate phis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass08-Iterator Indices-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass09-Scalar Replacement-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass10-Apply types-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass11-Alias analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass12-Eliminate dead resume point operands-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass13-GVN-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass14-LICM-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass15-Beta-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass16-Range Analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass17-De-Beta-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass18-RA check UCE-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass19-Truncate Doubles-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass20-Sink-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass21-Remove Unnecessary Bitops-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass22-Fold Linear Arithmetic Constants-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass23-Effective Address Analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass24-DCE-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass25-Reordering-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass26-Make loops contiguous-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass27-Edge Case Analysis (Late)-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass28-Bounds Check Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass29-Shape Guard Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass30-GC Barrier Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass31-FoldLoadsWithUnbox-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass32-Add KeepAlive Instructions-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass33-Generate LIR-lir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func00-pass34-Allocate Registers [Backtracking]-lir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass00-BuildSSA-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass01-Prune Unused Branches-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass02-Fold Empty Blocks-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass03-Eliminate trivially dead resume point operands-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass04-Fold Tests-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass05-Split Critical Edges-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass06-Renumber Blocks-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass07-Eliminate phis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass08-Iterator Indices-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass09-Scalar Replacement-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass10-Apply types-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass11-Alias analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass12-Eliminate dead resume point operands-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass13-GVN-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass14-LICM-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass15-Beta-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass16-Range Analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass17-De-Beta-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass18-RA check UCE-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass19-Truncate Doubles-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass20-Sink-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass21-Remove Unnecessary Bitops-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass22-Fold Linear Arithmetic Constants-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass23-Effective Address Analysis-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass24-DCE-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass25-Reordering-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass26-Make loops contiguous-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass27-Edge Case Analysis (Late)-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass28-Bounds Check Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass29-Shape Guard Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass30-GC Barrier Elimination-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass31-FoldLoadsWithUnbox-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass32-Add KeepAlive Instructions-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass33-Generate LIR-lir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func01-pass34-Allocate Registers [Backtracking]-lir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func02-pass00-BuildSSA-mir.gv.pdf
+ writing pdf /tmp/tmp6effutj7/func02-pass01-Prune Unused Branches-mir.gv.pdf
+combining pdfs...
+ writing pdf ./func00.pdf
+ writing pdf ./func01.pdf
+ writing pdf ./func02.pdf
