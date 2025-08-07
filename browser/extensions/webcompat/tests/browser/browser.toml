@@ -1,0 +1,27 @@
+[DEFAULT]
+support-files = [
+  "head.js",
+  "shims_test.js",
+  "shims_test_2.js",
+  "shims_test_3.js",
+  "iframe_test.html",
+  "shims_test.html",
+  "shims_test_2.html",
+  "shims_test_3.html",
+  "smartblock_embed_test.html",
+  "embed_test.js",
+]
+
+["browser_aboutcompat.js"]
+
+["browser_console_messages.js"]
+
+["browser_interventions.js"]
+
+["browser_shims.js"]
+https_first_disabled = true
+skip-if = ["verify"]
+
+["browser_smartblockembeds.js"]
+
+["browser_ua_helpers.js"]

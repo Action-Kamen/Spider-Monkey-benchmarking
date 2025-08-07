@@ -1,0 +1,14 @@
+features:
+- name: target-text
+  files:
+  - target-text-*
+- name: spelling-grammar-error
+  files:
+  - spelling-error-*
+  - grammar-spelling-errors-*
+- name: marker
+  files:
+  - marker-*
+- name: file-selector-button
+  files:
+  - file-selector-button-*

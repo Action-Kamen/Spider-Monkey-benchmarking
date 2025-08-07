@@ -1,0 +1,14 @@
+[DEFAULT]
+tags = "devtools"
+subsuite = "devtools"
+support-files = [
+  "consoleApi.js",
+  "cssMessage.js",
+  "evaluationResult.js",
+  "index.js",
+  "networkEvent.js",
+  "pageError.js",
+  "platformMessage.js",
+]
+
+["browser_dummy.js"]

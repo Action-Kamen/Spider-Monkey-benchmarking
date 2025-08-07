@@ -1,0 +1,15 @@
+[[repos]]
+name = 'spec'
+commit = '1e1010249'
+
+[[repos]]
+name = 'memory64'
+commit = '179566900'
+
+[[repos]]
+name = 'exception-handling'
+commit = 'da1e90701'
+
+[[repos]]
+name = 'gc'
+commit = '88463e822'

@@ -1,0 +1,4 @@
+EXPORTS.gbm = [
+    'gbm/gbm.h',
+]
+
