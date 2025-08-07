@@ -1,8 +1,10 @@
 # SpiderMonkey Benchmarking
 
-This repository is focused on benchmarking and analyzing **SpiderMonkey’s JIT compilation** behavior (specifically IonMonkey), with tools, scripts, and configuration for fine-grained profiling, instrumentation, and visualization of JavaScript execution.
+This repository is a fork of `mozilla-central`, used to evaluate and test performance characteristics of the SpiderMonkey JavaScript engine.
 
----
+# SpiderMonkey Benchmarking
+
+This repository is focused on benchmarking and analyzing **SpiderMonkey’s JIT compilation** behavior (specifically IonMonkey), with tools, scripts, and configuration for fine-grained profiling, instrumentation, and visualization of JavaScript execution.
 
 ## 📁 Project Structure
 
@@ -10,6 +12,7 @@ This repository is focused on benchmarking and analyzing **SpiderMonkey’s JIT 
 - `benchmarkers/`: Helper scripts/tools to run benchmarks and log results.
 - `.gitignore`: Excludes large binaries and logs from Git tracking.
 - `temp_large_files/`: (Ignored) For storing large binaries or artifacts locally without pushing to GitHub.
+- We have made minimal changes to the original `mozilla-central` source code.
 
 ---
 
